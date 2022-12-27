@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  background:rgb(0, 100, 0/0.1)!important; ;
+}
+/* CSS for styling the seat layout */
+#seat-layout {
+  border-collapse: collapse;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: green;
+}
+
+.seat.available {
+  background-color: green;
+}
+
+.seat.unavailable {
+  background-color: red;
+}
